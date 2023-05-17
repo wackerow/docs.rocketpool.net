@@ -501,7 +501,7 @@ Run the following commands **on your node machine**:
 
 ```shell
 sudo apt update
-sudo apt install -y unattended-upgrades update-notifier-common
+sudo apt install -y unattended-upgrades apt-config-auto-update
 ```
 
 You can change the auto-update settings by editing `/etc/apt/apt.conf.d/20auto-upgrades`:
